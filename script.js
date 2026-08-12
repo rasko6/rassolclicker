@@ -14,7 +14,7 @@
 updatebuttons();
     function updatecount(){
         const abcd = document.getElementById("counting");
-        abcd.textContent = ("счет: " + count1);
+        abcd.textContent = ("your count: " + count1);
     }
     function clicked(){
         const img = document.getElementById("imag");
