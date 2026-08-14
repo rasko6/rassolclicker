@@ -78,14 +78,6 @@ updatebuttons();
     function clicked(){
         const img = document.getElementById("imag");
         img.src = "rassopress.png";
-        img.animate(
-        [
-            { transform: 'scale(1)', transformOrigin: 'bottom' },
-            { transform: 'scale(1.1)', transformOrigin: 'bottom' },
-            { transform: 'scale(1)', transformOrigin: 'bottom' }
-        ],
-        200
-        );
         setTimeout(() => {
         img.src = "rassolhover.png";
         }, 100);
