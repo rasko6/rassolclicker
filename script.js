@@ -15,6 +15,14 @@ updatebuttons();
     function updatecount(){
         const abcd = document.getElementById("counting");
         abcd.textContent = ("your count: " + count1);
+        abcd.animate(
+        [
+            { transform: 'scale(1)', transformOrigin: 'bottom' },
+            { transform: 'scale(1.1)', transformOrigin: 'bottom' },
+            { transform: 'scale(1)', transformOrigin: 'bottom' }
+        ],
+        200
+        );
     }
     function clicked(){
         const img = document.getElementById("imag");
